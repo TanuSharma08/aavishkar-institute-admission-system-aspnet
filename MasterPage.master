@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta charset="UTF-8" />
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Aavishkar Institute</title>
+    <link rel="stylesheet" href="headerstyle.css" />
+  	<link rel="icon" type="image/ico" href="images/favicon.ico" />
+    
+    <style>
+  		.f1{
+  		    font-family: 'Times New Roman', Times, serif;
+  		    font-size: 25px;
+  		    text-align: center;
+  		    padding: 10px;
+  		    background-color: rgba(0, 0, 0, 0.829);
+  		    color: white;
+            		    margin-top: 80px;
+		    }
+	</style>
+</head>
+<body>
+    <div class="header">
+        <span><img src="images/logo1.png" width="60" /></span>
+        <span>Aavishkar Institute</span>
+
+  	    <div class="header-right">
+    	    <a href="Default.aspx">Home</a>
+    	    <a href="login.aspx">Admission</a>
+    	    <a href="courses.aspx">Courses</a>
+    	    <a href="aboutus.aspx">About Us</a>
+    	    <a href="login.aspx">Login</a>
+    	    <a href="signup.aspx" class="border">Sign Up</a>
+  	    </div>
+    </div>
+    <div>
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+       
+    </div>
+        
+    <div>
+        <footer>
+            <div class="f1">Developed By : Tanu Sharma</div>
+        </footer>
+    </div>   
+</body>
+</html>
