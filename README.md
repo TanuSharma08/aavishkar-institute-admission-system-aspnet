@@ -99,7 +99,7 @@ Compared to the PHP version, this ASP.NET WebForms version includes additional i
 - JavaScript
 - IIS Express
 - Visual Studio
-- **AI Assistance:** ChatGPT
+- ChatGPT
 
 ---
 
