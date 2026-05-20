@@ -99,6 +99,7 @@ Compared to the PHP version, this ASP.NET WebForms version includes additional i
 - JavaScript
 - IIS Express
 - Visual Studio
+- **AI Assistance:** ChatGPT
 
 ---
 
@@ -144,7 +145,7 @@ cd aavishkar-institute-asp
 
 ## Prerequisites
 
-- Visual Studio 2019 or later
+- Visual Studio 2012 or later
 - SQL Server LocalDB / SQL Server Express
 - .NET Framework 4.5+
 
